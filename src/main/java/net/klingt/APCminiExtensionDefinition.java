@@ -35,7 +35,7 @@ public class APCminiExtensionDefinition extends ControllerExtensionDefinition {
 
     @Override
     public String getHardwareVendor() {
-        return "AKAI";
+        return "Akai";
     }
 
     @Override
