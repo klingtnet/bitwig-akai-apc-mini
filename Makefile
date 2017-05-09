@@ -1,7 +1,7 @@
 
 .PHONY: clean
 
-SCRIPT_DIR:="$$HOME/Bitwig Studio/Controller Scripts"
+SCRIPT_DIR:="$$HOME/Bitwig Studio/Extensions"
 JAVA_SOURCES:=$(wilcard src/**/*.java)
 
 all: build
