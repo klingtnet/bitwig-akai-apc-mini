@@ -14,6 +14,9 @@ target/APCmini.bwextension:
 test:
 	mvn test
 
+debug:
+	BITWIG_DEBUG_PORT=5005 bitwig-studio
+
 install: build
 	mkdir -p $(SCRIPT_DIR)
 	install -Dm644 target/APCmini.bwextension $(SCRIPT_DIR)
